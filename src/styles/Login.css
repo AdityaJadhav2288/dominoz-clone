@@ -1,0 +1,90 @@
+/* Remove old styles if any */
+
+.login-modern-bg {
+  min-height: 100vh;
+  background: linear-gradient(120deg, #f8fafc 60%, #e0e7ff 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-modern-card {
+  background: #fff;
+  border-radius: 1.5rem;
+  box-shadow: 0 4px 24px rgba(13,72,136,0.10);
+  padding: 2.5rem 2rem;
+  width: 100%;
+  max-width: 370px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.login-modern-card h2 {
+  color: #0d4888;
+  font-weight: 700;
+  margin-bottom: 1.2rem;
+}
+
+.input-group-modern input[type="email"],
+.input-group-modern input[type="password"] {
+  width: 100%;
+  padding: 0.8rem 1rem;
+  border-radius: 1rem;
+  border: 1px solid #e0e7ff;
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+  outline: none;
+  background: #f8fafc;
+  transition: border 0.2s;
+}
+
+.input-group-modern input[type="email"]:focus,
+.input-group-modern input[type="password"]:focus {
+  border: 1.5px solid #0d4888;
+  background: #fff;
+}
+
+.login-modern-card input[type="submit"] {
+  width: 100%;
+  background: linear-gradient(90deg, #ff512f 0%, #dd2476 100%);
+  color: #fff;
+  border: none;
+  border-radius: 1rem;
+  font-weight: bold;
+  padding: 0.8rem 0;
+  font-size: 1.1rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.10);
+  cursor: pointer;
+  margin-bottom: 0.8rem;
+  transition: background 0.2s, color 0.2s;
+}
+
+.login-modern-card input[type="submit"]:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+}
+
+.login-modern-card .error-message {
+  color: #ff512f;
+  margin: 0 0 1rem 0;
+  font-size: 1rem;
+  text-align: center;
+}
+
+.login-modern-card a {
+  color: #0d4888;
+  font-weight: 600;
+  text-decoration: none;
+  border: 1px solid #e0e7ff;
+  border-radius: 1rem;
+  padding: 0.6rem 1.5rem;
+  background: #f8fafc;
+  transition: background 0.2s, color 0.2s;
+  display: inline-block;
+}
+
+.login-modern-card a:hover {
+  background: #e0e7ff;
+  color: #ff512f;
+}

@@ -1,0 +1,238 @@
+.menu {
+  padding: 20px;
+  background-color: #fff;
+}
+
+.menu-card {
+  border: 1px solid black;
+  padding: 15px;
+}
+
+.carousel-title {
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.menu-slider {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px; /* Added gap to create space between items */
+}
+
+.menu-slide-wrapper {
+  flex: 1 1 calc(25% - 20px); /* Adjusts the width of each item to be 25% of the container minus margins */
+  box-sizing: border-box;
+  margin-bottom: 20px;
+}
+
+.menu-slide {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  background-color: rgb(163, 16, 16);
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  transition: transform 0.3s;
+  padding: 15px; /* Added padding inside each menu slide */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Added a subtle shadow for better separation */
+}
+
+.menu-slide:hover {
+  transform: scale(1.05);
+}
+
+.menu-slide img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px; /* Added margin-bottom to separate the image from the content */
+}
+
+.menu-desc {
+  padding: 10px;
+}
+
+.menu-heading {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.menu-content {
+  font-size: 14px;
+  color: white;
+}
+
+.menu-now {
+  display: block;
+  width: 80%; /* Reduced button width for better fit */
+  padding: 10px;
+  background-color: white;
+  color: black;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  margin-top: 10px; /* Added margin-top to separate the button from the content */
+  border-radius: 5px; /* Added some border-radius for a smoother button appearance */
+}
+
+.menu-now:hover {
+  background-color: rgb(218, 205, 15);
+}
+
+.menu-title {
+  color: red;
+  font-family: fantasy;
+  text-align: center;
+}
+
+.app-img {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 4px;
+  padding: 20px;
+  background-color: #f8f8f8;
+}
+
+.app-img-desktop {
+  max-width: 50%;
+  height: auto;
+}
+
+.app-download-wrapper {
+  max-width: 40%;
+  text-align: center;
+}
+
+.app-download {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.app-download-wrapper p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.appdownload-img {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.appdownload-img li {
+  margin: 0 10px;
+}
+
+.appdownload-img img {
+  width: 120px;
+  height: auto; /* Maintain aspect ratio */
+  max-height: 100px; /* Set a maximum height to make the images smaller */
+}
+
+.menu-title-modern {
+  font-family: 'Poppins', 'proximaNova', sans-serif;
+  font-weight: 800;
+  font-size: 2.5rem;
+  color: #0d4888;
+  letter-spacing: 1px;
+  margin-bottom: 2rem;
+}
+
+.menu-slider-modern {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+}
+
+.menu-slide-wrapper-modern {
+  flex: 1 1 250px;
+  max-width: 320px;
+  min-width: 260px;
+  display: flex;
+  justify-content: center;
+}
+
+.menu-slide-modern {
+  background: #fff;
+  border-radius: 1.5rem;
+  box-shadow: 0 4px 24px rgba(13,72,136,0.08);
+  padding: 2rem 1.5rem 1.5rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: transform 0.18s, box-shadow 0.18s;
+  min-height: 420px;
+}
+
+.menu-slide-modern:hover {
+  transform: translateY(-8px) scale(1.03);
+  box-shadow: 0 8px 32px rgba(13,72,136,0.14);
+}
+
+.menu-img-modern {
+  width: 120px;
+  height: 120px;
+  object-fit: contain;
+  border-radius: 1rem;
+  margin-bottom: 1.2rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+  background: #f8fafc;
+}
+
+.menu-heading-modern {
+  font-family: 'Poppins', 'proximaNova', sans-serif;
+  font-weight: 700;
+  font-size: 1.3rem;
+  color: #0d4888;
+  margin-bottom: 0.5rem;
+  text-align: center;
+}
+
+.menu-content-modern {
+  color: #555;
+  font-size: 1rem;
+  text-align: center;
+  margin-bottom: 1.2rem;
+}
+
+.menu-now-modern {
+  background: linear-gradient(90deg, #ff512f 0%, #dd2476 100%);
+  color: #fff;
+  border: none;
+  border-radius: 25px;
+  font-weight: bold;
+  padding: 0.6rem 2rem;
+  font-size: 1.1rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.10);
+  transition: background 0.2s, color 0.2s;
+  cursor: pointer;
+  margin-top: auto;
+}
+
+.menu-now-modern:hover {
+  background: linear-gradient(90deg, #dd2476 0%, #ff512f 100%);
+  color: #fff;
+}
+
+@media (max-width: 900px) {
+  .menu-slider-modern {
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+  }
+  .menu-slide-wrapper-modern {
+    width: 90%;
+    max-width: 500px;
+  }
+}
