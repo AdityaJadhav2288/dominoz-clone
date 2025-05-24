@@ -52,22 +52,24 @@ const MenuSlider = () => (
       imgAlt="Sides and Beverages"
       heading="SIDES & BEVERAGES"
       content="Complement your pizza with wide range of sides & beverages available at Domino's Pizza India"
-      orderLink="#"
+      orderLink="/orders"
     />
   </div>
 );
 
 const Menu = () => (
-  <div style={{ background: 'linear-gradient(120deg, #f8fafc 60%, #e0e7ff 100%)', minHeight: '100vh', paddingBottom: '2rem' }}>
-    <Row className="text-center py-4 justify-content-center">
-      <Col md="auto">
-        <h1 className="menu-title-modern">DOMINO'S MENU</h1>
-      </Col>
-    </Row>
-    <Container>
-      <MenuSlider />
-    </Container>
-  </div>
+  <>
+    <div style={{ background: 'linear-gradient(120deg, #f8fafc 60%, #e0e7ff 100%)', minHeight: '100vh', paddingBottom: '2rem', paddingTop: '90px' }}>
+      <Row className="text-center py-4 justify-content-center">
+        <Col md="auto">
+          <h1 className="menu-title-modern">DOMINO'S MENU</h1>
+        </Col>
+      </Row>
+      <Container>
+        <MenuSlider />
+      </Container>
+    </div>
+  </>
 );
 
 export default Menu;

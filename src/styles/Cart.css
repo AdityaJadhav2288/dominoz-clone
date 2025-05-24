@@ -1,0 +1,173 @@
+.order-container {
+  background-color: #f8fafc;
+  min-height: 100vh;
+  padding-top: 90px;
+  padding-bottom: 2rem;
+  font-family: 'Poppins', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #232323;
+}
+
+.order-container h2 {
+  font-weight: 800;
+  font-size: 2.4rem;
+  color: #0d4888;
+  margin-bottom: 2rem;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+.order-container textarea {
+  width: 100%;
+  border-radius: 1rem;
+  border: 1px solid #e0e7ff;
+  padding: 0.7rem 1rem;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  background: #f8fafc;
+  resize: vertical;
+}
+
+.order-container ul {
+  width: 100%;
+  padding: 0;
+  list-style: none;
+  margin-bottom: 1.2rem;
+}
+
+.order-container ul li {
+  background: #f8fafc;
+  border-radius: 1rem;
+  margin-bottom: 0.7rem;
+  padding: 0.7rem 1rem;
+  color: #232323;
+  font-weight: 500;
+  font-size: 1rem;
+  box-shadow: 0 1px 4px rgba(13,72,136,0.04);
+  position: relative;
+}
+
+.order-container ul li button {
+  background: transparent;
+  border: none;
+  color: #dd2476;
+  font-weight: bold;
+  cursor: pointer;
+  float: right;
+  font-size: 1.2rem;
+  line-height: 1rem;
+  user-select: none;
+}
+
+.order-container ul li div {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.order-container ul li span {
+  font-weight: 700;
+  margin-right: 0.5rem;
+}
+
+.order-container input[type="text"] {
+  flex: 1;
+  border-radius: 1rem;
+  border: 1px solid #cbd5e1;
+  padding: 0.7rem 1rem;
+  font-size: 1.1rem;
+  background: #f8fafc;
+  transition: border-color 0.3s ease;
+}
+
+.order-container button {
+  border-radius: 25px;
+  font-weight: bold;
+  padding: 0.5rem 1.5rem;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.order-container button:disabled {
+  cursor: not-allowed;
+  background: #ccc;
+  color: #666;
+}
+
+.order-container .btn-apply {
+  background: black;
+  color: white;
+  border: none;
+  padding: 0.7rem 1.8rem;
+  font-size: 1.1rem;
+  font-weight: 700;
+  border-radius: 1rem;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.order-container .btn-apply:disabled {
+  background: #ccc;
+  cursor: not-allowed;
+}
+
+.order-container .btn-clear {
+  background: white;
+  color: #ff512f;
+  border: 1px solid #ff512f;
+  margin-bottom: 1rem;
+}
+
+.order-container .btn-clear:disabled {
+  color: #666;
+  border-color: #ccc;
+}
+
+.order-container .btn-checkout {
+  background: linear-gradient(90deg, #0d4888 0%, #1e90ff 100%);
+  color: white;
+  border: none;
+  padding: 0.7rem 2.2rem;
+  font-size: 1.1rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.10);
+  transition: background 0.2s, color 0.2s;
+  border-radius: 25px;
+}
+
+.order-container .btn-checkout:disabled {
+  background: #ccc;
+  color: #666;
+  cursor: not-allowed;
+}
+
+.order-container .modal-body {
+  text-align: center;
+  padding: 2.5rem 1.5rem;
+}
+
+.order-container .modal-body svg {
+  margin-bottom: 1rem;
+}
+
+.order-container .modal-body h3 {
+  color: #0d4888;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+.order-container .modal-body p {
+  color: #555;
+  margin-bottom: 1.5rem;
+}
+
+.order-container .modal-body .btn-primary {
+  background: linear-gradient(90deg, #ff512f 0%, #dd2476 100%);
+  border: none;
+  border-radius: 25px;
+  font-weight: bold;
+  padding: 0.6rem 2rem;
+  font-size: 1.1rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.10);
+  transition: background 0.2s, color 0.2s;
+  cursor: pointer;
+}

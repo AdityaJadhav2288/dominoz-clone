@@ -3,7 +3,7 @@ import {Container,Row,Col} from 'react-bootstrap'
 import FacebookIcon from '@mui/icons-material/Facebook';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import YouTubeIcon from '@mui/icons-material/YouTube';
-
+import '../styles/Footer.css';
 
 function Footer()
 {
@@ -54,8 +54,8 @@ function Footer()
                 </Col>
               </Row>
           </Container>
-          <hr style={{color:'white',border:'1px solid white'}}/>
-          <h6 style={{color:'white',textAlign:'center'}}>Copyright Reserved @2024 Sharmistha Pal</h6>
+          <hr />
+          <h6>Copyright Reserved @2024 Sharmistha Pal</h6>
         </section>
       </div>
 
